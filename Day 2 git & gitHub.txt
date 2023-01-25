@@ -1,0 +1,29 @@
+Q1. How to check if Git is available in your system?
+Ans :- type ‘git –version’ or ‘git -v’ in cmd. If git is available then show which type of version is available in the system.
+
+Q2. How to initialize a new git repository?
+Ans :- First we will create a new repository in my GitHub account then open my git bash terminal in my local system. 
+Change the working directory to my local project,
+use ‘git init’ commond to initialize the local directory as a git repository then add a new file in the local repository after that commit the file.
+
+Q3. How to tell git about your name and email?
+Ans :- Using git config commond:
+For name 
+git  config –global  user.name “ritik6207”
+For email id
+git config –global user.email “ritikkumar142002@gmail.com” 
+
+Q4. How to add a file to the staging area?
+Ans :- using git add <file name> for a particular file or git add . for all files.
+Q5. How to remove the file from the staging area?
+Ans :- using git rm –cached <fileName> commond.
+
+Q6. How to make a commit?
+Ans :- commit the files local repository using git commit -m “suitable massage”. commond
+
+Q7. How to send your changes to a remote repository?
+Ans :- using git push -u remote name branch name.
+
+Q8. What is the difference between clone and pull?
+Ans :- git clone is how you get a local copy of an existing repository to work on. 
+git pull (or git fetch + git merge ) is how you update that local copy with new commits from the remote repository.
